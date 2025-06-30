@@ -16,22 +16,38 @@ DESCRIPTION : In Task 4 of the CodTech Machine Learning Internship, we developed
 
 OUTPUT : 
 User-Item Matrix:
+
  Item  Item1  Item2  Item3  Item4
+ 
 User
+
 A       5.0    3.0    4.0    0.0
+
 B       0.0    2.0    0.0    4.0
+
 C       0.0    5.0    3.0    0.0
+
 D       4.0    0.0    0.0    5.0
+
 E       0.0    0.0    4.0    0.0
 
 User Similarity Matrix:
+
  User         A         B         C         D         E
+ 
 User
+
 A     1.000000  0.189737  0.654846  0.441726  0.565685
+
 B     0.189737  1.000000  0.383482  0.698430  0.000000
+
 C     0.654846  0.383482  1.000000  0.000000  0.514496
+
 D     0.441726  0.698430  0.000000  1.000000  0.000000
+
 E     0.565685  0.000000  0.514496  0.000000  1.000000
 
 Top Recommendations for User A:
+
  [('Item4', np.float64(4.699528348377327))]
+ 
